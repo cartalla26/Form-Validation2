@@ -1,0 +1,89 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("validation.jpg");
+  padding: 10px;
+}
+
+.user-details {
+  margin: 30px 50px;
+  background: linear-gradient(135deg, #474992, #e78383ca);
+}
+
+.form-group {
+  margin: 20px;
+  background: linear-gradient(135deg, #58f3f3, #e78383ca);
+}
+
+.form-group0 {
+  border: solid 5px rgb(237, 10, 245);
+  padding: 15px 10px;
+}
+
+input {
+  width: 100%;
+  border: solid 10px #eee;
+  padding: 15px 10px;
+  font-size: 25px;
+}
+
+button {
+  width: 200px;
+  padding: 20px;
+  margin-left: 30 px;
+  background: #fff;
+  color: dodgerblue;
+  border: solid 5px dodgerblue;
+  border-radius: 33px;
+  cursor: pointer;
+  transition: all 0.38s ease-in-out;
+  font-size: 20px;
+}
+
+button:hover {
+  background: dodgerblue;
+  color: rgb(255, 255, 255);
+}
+
+table tr td {
+  border: solid 1px #eee;
+  padding: 10px;
+}
+
+.form-group:before {
+  content: " *";
+  color: red;
+}
+b {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.container {
+  width: 650px;
+  height: 640px;
+  align: center;
+  border: 10px solid rgb(112, 112, 233);
+  background: linear-gradient(135deg, #474992, #e78383ca);
+}
+
+.he {
+  text-align: center;
+  font-family: "Bungee Spice", cursive;
+  font-size: 30px;
+}
+
+.c1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  display: block;
+  font-size: 3.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
